@@ -30,10 +30,10 @@
     "winston": "~0.7.2",
     "stylus": "~0.42.3",
     "nib": "~1.0.2",
-    "coffee-middleware": "~0.2.1"
+    "coffee-middleware": "0.3.0"
   },
   "devDependencies": {
-    "coffee-middleware": "~0.2.1"
+    "coffee-middleware": "^0.3.0"
   },
   "main": "app",
   "scripts": {
