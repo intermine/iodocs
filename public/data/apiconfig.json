@@ -60,6 +60,30 @@
         "booleanTrueVal": "true",
         "booleanFalseVal": "false"
     },
+    "humanmine": {
+        "name": "HumanMine",
+        "protocol": "http",
+        "baseURL": "www.humanmine.org",
+        "publicPath": "/humanmine/service",
+        "version": "/version",
+        "auth": "key",
+        "intermine": true,
+        "keyParam": "token",
+        "booleanTrueVal": "true",
+        "booleanFalseVal": "false"
+    },
+    "yeastmine": {
+        "name": "YeastMine",
+        "protocol": "https",
+        "baseURL": "yeastmine.yeastgenome.org",
+        "publicPath": "/yeastmine/service",
+        "version": "/version",
+        "auth": "key",
+        "intermine": true,
+        "keyParam": "token",
+        "booleanTrueVal": "true",
+        "booleanFalseVal": "false"
+    },
     "rgd": {
         "name": "RatMine",
         "protocol": "http",
