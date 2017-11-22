@@ -207,8 +207,8 @@ function initAppConfig () {
               imAPIflt[k1].push(e);
             }
           }
-        } else if (k1 !== 'auth') {
-          imAPIflt[k1].push(imAPI[k1]);
+        } else {
+          imAPIflt[k1] = imAPI[k1];
         }
       }
       return imAPIflt;
@@ -752,6 +752,15 @@ app.post('/:api/run', function (req, res, next) {
 
 app.get('/:api/definition.json', function (req, res) {
   res.json(imAPIs[req.params.api]);
+});
+
+app.get('/mines.json', function (req, res) {
+  var api, mines = {};
+  for (var key in apisConfig) {
+    api = apisConfig[key];
+    mines[key] = api.protocol + "://" + api.baseURL + api.publicPath;
+  }
+  res.json(mines);
 });
 
 app.get('/:api/info.json', function (req, res) {
