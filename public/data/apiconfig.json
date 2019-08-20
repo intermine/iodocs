@@ -11,7 +11,7 @@
         "booleanTrueVal": "true",
         "booleanFalseVal": "false"
     },
-    "squirrel": {
+    "targetmine": {
         "name": "TargetMine",
         "protocol": "https",
         "baseURL": "targetmine.mizuguchilab.org",
