@@ -12,10 +12,10 @@
         "booleanFalseVal": "false"
     },
     "squirrel": {
-        "name": "Squirrel Mine",
-        "protocol": "http",
-        "baseURL": "localhost:8080",
-        "publicPath": "/squirrelmine/service",
+        "name": "TargetMine",
+        "protocol": "https",
+        "baseURL": "targetmine.mizuguchilab.org",
+        "publicPath": "/targetmine/service",
         "version": "/version",
         "auth": "key",
         "intermine": true,
