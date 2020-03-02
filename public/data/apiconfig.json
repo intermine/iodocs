@@ -50,9 +50,9 @@
     },
     "flymine": {
         "name": "FlyMine",
-        "protocol": "http",
+        "protocol": "https",
         "baseURL": "www.flymine.org",
-        "publicPath": "/query/service",
+        "publicPath": "/flymine/service",
         "version": "/version",
         "auth": "key",
         "intermine": true,
@@ -62,7 +62,7 @@
     },
     "humanmine": {
         "name": "HumanMine",
-        "protocol": "http",
+        "protocol": "https",
         "baseURL": "www.humanmine.org",
         "publicPath": "/humanmine/service",
         "version": "/version",
@@ -146,7 +146,7 @@
     },
     "flymine-beta": {
         "name": "FlyMine-Beta",
-        "protocol": "http",
+        "protocol": "https",
         "baseURL": "beta.flymine.org",
         "publicPath": "/beta/service",
         "version": "/version",
